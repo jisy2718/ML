@@ -15,3 +15,11 @@ XGBoost는 업계에서 입증된 그레이디언트 부스팅을 위한 오픈�
 * 한국어판 부록에서는 LightGBM, CatBoost, 사이킷런의 히스토그램 기반 그레이디언트 부스팅을 소개합니다.
 
 온라인/오프라인 서점에서 판매중입니다! [Yes24](http://www.yes24.com/Product/Goods/108708980), [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162245392&orderClick=LOA&Kc=#N), [한빛미디어](https://www.hanbit.co.kr/store/books/look.php?p_code=B5725043400)
+
+
+
+
+# 공부내용
+
+## Ch01.머신러닝개요
++ [결측치처리](./Ch01_머신러닝개요/Ch01.머신러닝개요.ipynb#1.2.3.-결측치-처리하기)
