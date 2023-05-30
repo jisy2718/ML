@@ -21,7 +21,7 @@ XGBoost는 업계에서 입증된 그레이디언트 부스팅을 위한 오픈�
 
 # 공부내용
 
-## Ch01.머신러닝개요
+## Ch01. 머신러닝개요
 + [결측치처리](./Ch01_머신러닝개요/Ch01.머신러닝개요.ipynb#1.2.3.-결측치-처리하기)
 
 + [선형회귀, XGBRegressor, 예측값 시각화](./Ch01_머신러닝개요/Ch01.머신러닝개요.ipynb#1.3.4.-선형회귀모형-만들기)
@@ -33,7 +33,7 @@ XGBoost는 업계에서 입증된 그레이디언트 부스팅을 위한 오픈�
 
 
 
-## Ch02.결정트리
+## Ch02. 결정트리
 
 + [결정트리 분류 코드](./Ch02_결정트리/Ch02.결정트리.ipynb#2.2.1.-첫번째-결정트리-모델)
 
@@ -66,3 +66,25 @@ XGBoost는 업계에서 입증된 그레이디언트 부스팅을 위한 오픈�
 + [하이퍼파라미터튜닝 - RandomizedSearchCV](./Ch03_배깅과RF/Ch03.배깅과랜덤포레스트.ipynb#3.4.4.-하이퍼파라미터튜닝)
 
 + [ExtraTreesClassifier](./Ch03_배깅과RF/Ch03.배깅과랜덤포레스트.ipynb#부록.-ExtraTreesClassifier-&-ExtraTreesRegressor)
+
+
+
+
+
+
+
+## Ch04. Gradient Boosting to XGBoost
+
++ [Gradient Boosting 구현](./Ch04_GradientBoosting/Ch04.%20Gradient%20Boosting%20to%20XGBoost.ipynb#4.2.3.-그레디언트-부스팅-모델-만들기)
++ [Gradient Boosting 파라미터 튜닝](./Ch04_GradientBoosting/Ch04.%20Gradient%20Boosting%20to%20XGBoost.ipynb#4.3.-GradientBoosting-매개변수-튜닝)
+  + [learning_rate & n_estimators : Plot 그리기](./Ch04_GradientBoosting/Ch04.%20Gradient%20Boosting%20to%20XGBoost.ipynb#4.3.1.-learning_rate)
+  + [조기종료](./Ch04_GradientBoosting/Ch04.%20Gradient%20Boosting%20to%20XGBoost.ipynb#4.3.3.-validation_fraction-&-n_iter_no_change-&-tol)
+  + [validation_fraction & n_iter_no_change & tol](./Ch04_GradientBoosting/Ch04.%20Gradient%20Boosting%20to%20XGBoost.ipynb#4.3.3.-validation_fraction-&-n_iter_no_change-&-tol)
+  + [subsample & oob_improvement_](./Ch04_GradientBoosting/Ch04.%20Gradient%20Boosting%20to%20XGBoost.ipynb#4.3.5.-subsample-&-obb_improvement_)
+    + 과적합을 막을 수 있음
+    + 예를들어 `n_iter_no_change = 10`, `validation_fraction= 0.2`, `subsample=0.5` 를 쓴다면, `validation_fraction`에 의해 전체 데이터 중 80%를 훈련 데이터로 쓰고, subsample에 의해 80% 중 랜덤하게 절반만 이용해서 트리를 만드는 과정을 반복함
+  + [기본학습기 매개변수](./Ch04_GradientBoosting/Ch04.%20Gradient%20Boosting%20to%20XGBoost.ipynb#4.3.4.-기본-학습기)
++ [Gradient Boosting Attributes](./Ch04_GradientBoosting/Ch04.%20Gradient%20Boosting%20to%20XGBoost.ipynb#4.3.2.-속성들) : `init_`, `estimators_`, `train_score_`, `oob_improvement_`
++ [시간 측정 방법](./Ch04_GradientBoosting/Ch04.%20Gradient%20Boosting%20to%20XGBoost.ipynb#4.4.4.-시간측정) : `%timeit, %%timeit`, `time.time()`
++ Plot 배경 옵션
+  + `sns.set()`
