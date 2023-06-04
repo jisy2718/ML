@@ -59,7 +59,7 @@
 
 ### 1.1.1. 용어 설명
 
-<img src="model.assets/image-20230602154625759.png" alt="image-20230602154625759" style="zoom:80%;" />
+<img src="model_DesicionTree.assets/image-20230602154625759.png" alt="image-20230602154625759" style="zoom:80%;" />
 
 위의 내용 해석
 
@@ -303,7 +303,7 @@ plot_tree(clf, max_depth=2, feature_names=list(X.columns), class_names=['0','1']
 plt.show()
 ```
 
-<img src="model.assets/image-20230602154534565.png" alt="image-20230602154534565" style="zoom:80%;" />
+<img src="model_DesicionTree.assets/image-20230602154534565.png" alt="image-20230602154534565" style="zoom:80%;" />
 
 
 
